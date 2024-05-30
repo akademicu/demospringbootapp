@@ -1,0 +1,3 @@
+package com.northcoders.demospringbootapp.model;
+
+public record Person(String name, int age, String eMail, String placeOfBirth, String favouriteFood){}
